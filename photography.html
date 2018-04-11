@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Graphity</title>
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+<link href="css/uidesign.css" rel="stylesheet">
+<link href="css/photography.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/enlargePhoto.js"></script>
+</head>
+
+<body>
+	<div class="greybox">
+    	<a class="logo" href="index.html">
+        	<img class="logoPhoto" src="image/logo.png" alt="Logo" width="333" height="67">
+        </a>
+        <div class="nav">
+        	<ul>
+            	<li id="nav_home"><a href="index.html">HOME</a></li>
+                <li id="nav_about"><a href="about.html">ABOUT</a></li>
+                <li id="nav_designers"><a href="designers.html">DESIGNERS</a></li>
+                <li id="nav_photo"><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li id="nav_portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li id="nav_contact"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+	<div id="content">
+    	<h1>PHOTOGRAPHY</h1>
+        <p>We came, we saw, we captured!</p>
+        
+        <div class="photogContent">
+        	<div class="photogHead" onClick="enlargePhoto(1,1)">
+            	<img src="image/photography/logo_landscape.png" height="67" width="67">
+                <div class="photogTitle">Landscape</div>
+            </div>
+            <div class="photogPic" id="photogPic1">
+            	<img src="image/photography/photo_landscape.png" height="415" width="644">
+            </div>
+        </div>
+        
+        <div class="photogContent">
+        	<div class="photogHead" onClick="enlargePhoto(2,1)">
+            	<img src="image/photography/logo_street.png" height="67" width="67">
+                <div class="photogTitle">Street Photography</div>         
+            </div>
+            <div class="photogPic" id="photogPic2">
+            	<img src="image/photography/photo_street.png" height="417" width="644">
+            </div>        
+        </div>
+        
+        <div class="photogContent">
+        	<div class="photogHead" onClick="enlargePhoto(3,1)">
+            	<img src="image/photography/logo_portrait.png" height="67" width="67">
+                <div class="photogTitle">Portrait Photography</div>
+            </div>
+            <div class="photogPic" id="photogPic3">
+            	<img src="image/photography/photo_portrait.png" height="418" width="644">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="footer" class="footer">
+        <div class="social">
+			<a href="http://facebook.com"><img src="image/footer/fblogo.png" width="33" height="33" alt="Facebook profile"></a>
+            <a href="http://twitter.com"><img src="image/footer/twlogo.png" width="33" height="33" alt="Twitter profile"></a>
+            <a href="http://instagram.com"><img src="image/footer/iglogo.png" width="33" height="33" alt="Instagram profile"></a>
+        </div>
+        <div class="bottomNav">
+        	<ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="designers.html">DESIGNERS</a></li>
+                <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="rights">
+        	<p>Copyright by Graphity Singapore. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.greybox {
+	background-image:url(../image/background_home.png);
+	background-repeat:no-repeat;
+	position:relative;
+	width:980px;
+	height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.box {
+	background-image:url(../image/borderorange.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:850px;
+	height:360px;
+	margin-top:75px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.indexFoot {
+	height:70px;
+	margin-top:-70px;
+}
+
+.social {
+	width:138px;
+	height:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.rights {
+	background-color:#17a0aa;
+	height:40%;
+	line-height:28px;
+	color:#FFFFFF;
+	font-size:10px;
+	text-align:center;
+}

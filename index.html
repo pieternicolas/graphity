@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Graphity</title>
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+<link href="css/uidesign.css" rel="stylesheet">
+<link href="css/home.css" rel="stylesheet">
+<link href="css/slideshow.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/slideshowChange.js"></script>
+</head>
+
+<body>
+	<div class="greybox">
+    	<a class="logo" href="index.html">
+        	<img class="logoPhoto" src="image/logo.png" alt="Logo" width="333" height="67">
+        </a>
+        <div class="nav">
+        	<ul>
+            	<li id="nav_home"><a href="index.html">HOME</a></li>
+                <li id="nav_about"><a href="about.html">ABOUT</a></li>
+                <li id="nav_designers"><a href="designers.html">DESIGNERS</a></li>
+                <li id="nav_photo"><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li id="nav_portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li id="nav_contact"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <div class="box">
+        	<div class="previous">
+               	<img class="previousLogo" src="image/slides/buttonleft.png" width="35" height="35" onClick="changeSlide(-1)">
+            </div>
+            
+            <div class="next">
+              	<img class="nextLogo" src="image/slides/buttonright.png" width="35" height="35" onClick="changeSlide(+1)">
+            </div>
+            
+        	<div class="slideshow">
+            	<div class="slide fading">
+                	<div class="topHalf">
+                    	<img src="image/slides/slideG.png" width="50" height="50">
+                    </div>
+                    <div class="botHalf">
+                    	<p>Welcome to <b>Graphity Graphic Design</b>. A small website and graphic design company based in Singapore. Constructing innovative and creative design solutions that are functional and professional. We are here to make stunning design for your business!</p>
+                    </div>
+                </div>
+            	<div class="slide fading">
+                	<img src="image/slides/slide2.jpg" width="500" height="330">
+                </div>
+                <div class="slide fading">
+                	<img src="image/slides/slide3.png" width="500" height="330">
+                </div>
+                <div class="slide fading" >
+                	<img src="image/slides/slide4.png" width="500" height="330">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="indexFoot">
+        <div class="social">
+        	<a href="http://facebook.com"><img src="image/footer/fblogo.png" width="33" height="33" alt="Facebook profile"></a>
+            <a href="http://twitter.com"><img src="image/footer/twlogo.png" width="33" height="33" alt="Twitter profile"></a>
+            <a href="http://instagram.com"><img src="image/footer/iglogo.png" width="33" height="33" alt="Instagram profile"></a>
+        </div>
+        <div class="rights">
+        	<p>Copyright by Graphity Singapore. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.greybox {
+	background-image:url(../image/background_home.png);
+	background-repeat:no-repeat;
+	background-color:#f2f0f1;
+	position:relative;
+	width:980px;
+	min-height:811px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content {
+	padding-bottom:260px;
+}
+
+h1 {
+	font-size:50px;
+	color:#17a0aa;
+	margin:0;
+}
+
+p {
+	margin:0;
+}
+
+.photogContent {
+	margin-top:70px;
+}
+
+.photogHead {
+	height:67px;
+	margin-bottom:20px;
+	cursor:pointer;
+}
+
+.photogHead img {
+	float:left;
+}
+
+.photogTitle {
+	float:left;
+	line-height:67px;
+	color:#17a0aa;
+	font-size:30px;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+.photogPic {
+	height:0px;
+	width:0px;
+	overflow:hidden;
+	-webkit-transition:ease-in-out 0.8s;
+	transition:ease-in-out 0.8s	
+}
+
+.show {
+	height:100%;
+	width:100%;
+}
+
+.photogPic img {
+	-webkit-transition:ease-in-out 0.2s;
+	transition:ease-in-out 0.2s
+}
+
+.photogPic img:hover {
+	-webkit-box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 7px -1px rgba(0,0,0,0.75);
+}

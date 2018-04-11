@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Graphity</title>
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+<link href="css/uidesign.css" rel="stylesheet">
+<link href="css/contact.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.2.min.js"></script>
+</head>
+
+<body>
+	<div class="greybox">
+    	<a class="logo" href="index.html">
+        	<img class="logoPhoto" src="image/logo.png" alt="Logo" width="333" height="67">
+        </a>
+        <div class="nav">
+        	<ul>
+            	<li id="nav_home"><a href="index.html">HOME</a></li>
+                <li id="nav_about"><a href="about.html">ABOUT</a></li>
+                <li id="nav_designers"><a href="designers.html">DESIGNERS</a></li>
+                <li id="nav_photo"><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li id="nav_portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li id="nav_contact"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+	<div id="content">
+    	<h1>CONTACT</h1>
+        <p>We are happy to answer any questions you have and provide you with an estimate. Just send us a message in the form below with any questions you may have.</p>
+        
+        <div class="leftSide">
+        	<form>
+            	<h3>YOUR NAME</h3>
+                <input type="text">
+                
+                <h3>YOUR EMAIL</h3>
+                <input type="text">
+                
+                <h3>SUBJECT</h3>
+                <input type="text">
+                
+                <h3>MESSAGE</h3>
+                <textarea cols="20"></textarea>
+                
+                <input class="submit" type="image" name="submit" src="image/submit.png">
+            </form>
+        </div>
+        
+        <div class="rightSide">
+        	<h4>EMAIL</h4>
+            <p>info@graphitysg.com</p>
+            
+            <h4>PHONE</h4>
+            <p>86955900 / 97850342</p>
+            
+            <h4>Location</h4>
+            <p>4 Leng Kee Road #06-07, Singapore 159088</p>
+            
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style=';height:200px;width:200px;'><div id='gmap_canvas' style='height:200px;width:200px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(1.3667,103.79999999999995),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(1.3667,103.79999999999995)});infowindow = new google.maps.InfoWindow({content:'<strong>SIS Building</strong><br>4 Leng Kee rd<br>159088 <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+    </div>
+    </div>
+    <div id="footer" class="footer">
+        <div class="social">
+			<a href="http://facebook.com"><img src="image/footer/fblogo.png" width="33" height="33" alt="Facebook profile"></a>
+            <a href="http://twitter.com"><img src="image/footer/twlogo.png" width="33" height="33" alt="Twitter profile"></a>
+            <a href="http://instagram.com"><img src="image/footer/iglogo.png" width="33" height="33" alt="Instagram profile"></a>
+        </div>
+        <div class="bottomNav">
+        	<ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="designers.html">DESIGNERS</a></li>
+                <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="rights">
+        	<p>Copyright by Graphity Singapore. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

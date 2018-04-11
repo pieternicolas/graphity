@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Graphity</title>
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+
+<link href="css/uidesign.css" rel="stylesheet">
+<link href="css/portfolio.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/logoFocus.js"></script>
+<script src="js/carousel.js"></script>
+</head>
+
+<body>
+	<div class="greybox">
+    	<a class="logo" href="index.html">
+        	<img class="logoPhoto" src="image/logo.png" alt="Logo" width="333" height="67">
+        </a>
+        <div class="nav">
+        	<ul>
+            	<li id="nav_home"><a href="index.html">HOME</a></li>
+                <li id="nav_about"><a href="about.html">ABOUT</a></li>
+                <li id="nav_designers"><a href="designers.html">DESIGNERS</a></li>
+                <li id="nav_photo"><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li id="nav_portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li id="nav_contact"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        
+	<div id="content">
+    	<h1>PORTFOLIO</h1>
+        <p>Welcome to our masterpiece!</p>
+        
+        <div class="portfNav">
+        	<div class="portfNavButton active" id="portfNav0" onClick="changePortSlide(0)">LOGOS</div>
+            <div class="spacer">&nbsp;</div>
+            <div class="portfNavButton" id="portfNav1" onClick="changePortSlide(1)">GRAPHICS</div>
+            <div class="spacer">&nbsp;</div>
+            <div class="portfNavButton" id="portfNav2" onClick="changePortSlide(2)">WEB</div>
+        </div>
+        
+        <div class="portfContent" id="portfLogo">
+        	<div class="portfRow">
+            	<img src="image/portfolio logo/L1.png" height="165" width="206" class="logoimg Left">
+            	<img src="image/portfolio logo/L2.png" height="165" width="206" class="logoimg Mid">
+            	<img src="image/portfolio logo/L3.png" height="165" width="206" class="logoimg Right">
+            </div>
+            <div class="portfRow">
+            	<img src="image/portfolio logo/L4.png" height="165" width="206" class="logoimg Left">
+            	<img src="image/portfolio logo/L5.png" height="165" width="206" class="logoimg Mid">
+            	<img src="image/portfolio logo/L6.png" height="165" width="206" class="logoimg Right">
+            </div>
+            <div class="portfRow">
+            	<img src="image/portfolio logo/L7.png" height="165" width="206" class="logoimg Left">
+            	<img src="image/portfolio logo/L8.png" height="165" width="206" class="logoimg Mid">
+            	<img src="image/portfolio logo/L9.png" height="165" width="206" class="logoimg Right">
+            </div>
+            <div class="portfRow">
+            	<img src="image/portfolio logo/L10.png" height="165" width="206" class="logoimg Left">
+            	<img src="image/portfolio logo/L11.png" height="165" width="206" class="logoimg Mid">
+            	<img src="image/portfolio logo/L12.png" height="165" width="206" class="logoimg Right">
+            </div>
+        </div>
+        
+        <div class="portfContent" id="portfGraphic">
+        	<div class="portfGraphSlide" id="graphSlide1">
+            	<img src="image/portfolio graphic/img1.png" height="661" width="249" class="logoimg graphLeft" onClick="changeSlide(-1)">
+                <img src="image/portfolio graphic/img2.png" height="663" width="219" class="logoimg graphRight" onClick="changeSlide(+1)">
+            </div>
+            <div class="portfGraphSlide" id="graphSlide2">
+            	<img src="image/portfolio graphic/img3.png" height="820" width="217" class="logoimg graphLeft" onClick="changeSlide(-1)">
+                <img src="image/portfolio graphic/img4.png" height="828" width="227" class="logoimg graphRight" onClick="changeSlide(+1)">
+            </div>
+            <div class="portfGraphSlide" id="graphSlide3">
+            	<img src="image/portfolio graphic/img5.png" height="813" width="193" class="logoimg graphLeft" onClick="changeSlide(-1)">
+                <img src="image/portfolio graphic/img6.png" height="818" width="207" class="logoimg graphRight" onClick="changeSlide(+1)">
+            </div>
+        </div>
+        
+        <div class="portfContent" id="portfWeb">
+        	<div class="portfWebRow" id="webRow1">
+            	<img src="image/portfolio web/webimage1.png" height="324" width="643" class="logoimg" onClick="changeWebSlide(+1)">
+                <img src="image/portfolio web/webimage2.png" height="323" width="643" class="logoimg" onClick="changeWebSlide(-1)">
+            </div>
+            <div class="portfWebRow" id="webRow2">
+            	<img src="image/portfolio web/webimage3.png" height="323" width="643" class="logoimg" onClick="changeWebSlide(+1)">
+                
+            </div>
+            <div class="portfWebRow" id="webRow3">
+            	<img src="image/portfolio web/webimage4.png" height="322" width="644" class="logoimg" onClick="changeWebSlide(+1)">
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <div id="footer" class="footer">
+        <div class="social">
+			<a href="http://facebook.com"><img src="image/footer/fblogo.png" width="33" height="33" alt="Facebook profile"></a>
+            <a href="http://twitter.com"><img src="image/footer/twlogo.png" width="33" height="33" alt="Twitter profile"></a>
+            <a href="http://instagram.com"><img src="image/footer/iglogo.png" width="33" height="33" alt="Instagram profile"></a>
+        </div>
+        <div class="bottomNav">
+        	<ul>
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="designers.html">DESIGNERS</a></li>
+                <li><a href="photography.html">PHOTOGRAPHY</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="rights">
+        	<p>Copyright by Graphity Singapore. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
